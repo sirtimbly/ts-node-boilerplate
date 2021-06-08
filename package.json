@@ -5,8 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "npm run lint && rimraf ./dist && tsc -p tsconfig.json",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix",
+    "lint": "prettier --check '*/**/*.{js,ts,tsx,jsx}' && eslint --quiet --cache '*/**/*.{js,ts,tsx}'",
+    "lint:fix": "prettier --write '*/**/*.{js,ts,tsx,jsx}' && eslint --quiet --cache --fix '*/**/*.{js,ts,tsx}'",
     "dev": "nodemon",
     "start": "npm run build && node dist/main.js",
     "test": "TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha -r ts-node/register tests/**.test.ts"
