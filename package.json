@@ -1,5 +1,5 @@
 {
-  "name": "ts-boilerplate",
+  "name": "ts-node-boilerplate",
   "version": "1.0.0",
   "description": "A project template for new Node.js projects using Typescript with essential tools for testing",
   "main": "dist/main.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MisterQuestions/node-ts-boilerplate.git"
+    "url": "git+https://github.com/sirtimbly/ts-node-boilerplate.git"
   },
   "keywords": [
     "typescript",
@@ -25,9 +25,9 @@
   "author": "Fernando Lopez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MisterQuestions/node-ts-boilerplate/issues"
+    "url": "https://github.com/sirtimbly/ts-node-boilerplate/issues"
   },
-  "homepage": "https://github.com/MisterQuestions/node-ts-boilerplate#readme",
+  "homepage": "https://github.com/sirtimbly/ts-node-boilerplate",
   "devDependencies": {
     "@types/chai": "^4.2.9",
     "@types/mocha": "^7.0.1",
